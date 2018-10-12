@@ -1,48 +1,64 @@
-# Site settings 配置站点
+# Site settings
 title: 'your awesome title'
 description: 'your web description'
 keywords: 'your web keywords, another keywords'
 url: 'https://abc.github.io' # your host
 
-# nav 中文字符空格：&emsp;
-nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+# navigation bar：&emsp;
+nav: # best experience six labels and preferably no more than 4 Chinese characters per label
+  Home : '/'
+  Tags : '/tags.html'
+  Timeline: '/timeline.html'
+  About: '/about.html'
+  reLink: '/reLink.html' # you can use this for share important link. like project, book, article, or other awesome blog. add link in freinds
 
-# 博主
+# Author/Blogger
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: 'Jony Bepary'
+NickName: 'Jhon :)'
+webtitle: 'Code With Jhon'
+bio: 'Student, Computer Programmer And a Scented Soul'
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou: "
+          your awesome story <br>
+          use br tag for new line <br>
+          and &\emsp for Chinese space
+          "
 
-# SNS
+# aboutyou: 'Jony Bepary is a Parlor Programmer, lickerish Linux lover, &emsp and Open Source enthusiast.<br>
+#   He uses Linux (Arch) and believes in sharing knowledge. He is a hobbyist blogger. In his spare time, he writes the article on his favorite subjects. <br>
+# Apart from Blogging and Coding, He loves Ancient Philosophy, Researching About rare aromatic compound and Love To Reading books (novel&manga).'
+
+
+portraits: '/assets/madara.png' # your portraits image file path
+
+# Future Post
+# it'll allow to publish future dated post from your time zone ;)
+future: true
+
+# Social Network Service
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
-  Codepen: ''
+  mail: 'mailto:yourname@example.com'
+  github: 'https://github.com/example'
+  Codepen: 'https://codepen.io/example/#'
+  Twitter: 'https://twitter.com/@example'
+  instagram: 'https://www.instagram.com/example/'
+  Facebook: 'https://facebook.com/example'
+  Google: 'https://plus.google.com/+example'
+  weixin: '' # The address where your WeChat QR code is stored
+  qq: '' # The address where your qq QR code is stored or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   weibo: ''
-  instagram: ''
-  Twitter: ''
   Dribbble: ''
-  Facebook: ''
-  Google: ''
   zhihu: ''
   juejin: ''
   twitch: ''
 
-# 分页
-paginate: 2
+# Pagination
+# the number of post you wanna show in a single page
+paginate: 4
 paginatepath: ['page:num']
+
 
 # since
 footer:
@@ -52,23 +68,27 @@ footer:
 markdown: kramdown
 kramdown:
   input: GFM
-# 代码高亮 使用rouge
+# Code highlighting rouge
 highlighter: rouge
-# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+# Code highlighting using pygments theme: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango (Choose one of the theme names you like and fill in the single quotes below.)
 pygmentsTheme: 'default'
 
-# 友情链接
+# reLinks
 friends:
-  jekyll: 'https://www.jekyll.com.cn/'
+  Jony's blog: 'http://jony-blog.github.io/'
+  XSeven's blog: 'http://xseven.me/'
+  subeen's blog: 'http://subeen.com/'
+  Corey Schafer: 'http://coreyms.com/'
 
-# 评论 最佳体验 在disqus、livere和Gitment之间三选一
-# disqus 评论
-disqus: false
-disqus_url: '' # https://abc.disqus.com/embed.js
-# 来必力评论
-livere: true
+
+# For Comments Best experience, Choose between disqus, liveRe and Gitment
+# disqus
+disqus: true
+disqus_url: 'https://username.disqus.com/embed.js' #
+# liveRe
+livere: false
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment评论 OAuth Application
+# Gitment OAuth Application
 Gitment: false
 Gitment_owner: ''  # github用户名
 Gitment_repo: ''  # github博客存放的仓库名
@@ -77,14 +97,34 @@ client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
-social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+social-share-items: ['facebook', 'twitter', 'google', 'linkedin',]
 
-# 百度统计 在baidu-url里填写自己相关的url代码
-baidu: true
+# Baidu statistics fill in the relevant url code in baidu-url
+baidu: false
 baidu-url: ''
-# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
-google: false
-google-ID: ''
+# Google Analytics Fill in your own tracking ID in Google Analytics in google-ID:''
+google: true
+google-ID: '<UA-********-x>'
 
-# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
+# Blog header information alternative color (this part does not act as a site variable in the site, it is written in the header of the post to serve as a page variable)
+
 color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - screenshot
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*

@@ -1,23 +1,22 @@
-<!-- 博文的布局-Layout -->
+<!-- Post layout -->
 <!DOCTYPE html>
 <html>
 <head>
-<!-- 引入head标签 -->
+<!-- Introducing the head tag -->
 {% include head.html %}
 {% include androidColor.html %}
 </head>
 <body>
 
-<!-- 顶部锚点 -->
+<!-- Top anchor -->
 <a id="htmlup" name="htmlup"></a>
-<!-- 引入博文顶部选项 -->
+<!-- Introduce blog post options -->
 {% include post-header.html %}
-<!-- 引入移动下拉选项 -->
+<!-- Introducing the mobile dropdown option -->
 {% include boot.html %}
-<!-- 引入博文顶部样式 -->
+<!-- Introducing the blog post style -->
 {% include post-title.html %}
 <div class="markdown-body fadeInUp animated">
-
   {% if page.subtitle %}
     {% if page.color.size==0 or page.color==nil %}
       <div class="postpage-subtitle" style="border-left: 8px solid #9A85FF; border-right: 8px solid #9A85FF;">
@@ -30,22 +29,22 @@
     {% endif %}
   {% endif %}
 
-  <!-- 文章内容 -->
+  <!-- Article content -->
   {{ page.content }}
-  <!-- 引入share模块 -->
+  <!-- Introducing the share module -->
   {% include share.html %}
 </div>
 
-<!-- 底部锚点 -->
+<!-- Bottom anchor -->
 <a id="htmldown" name="htmldown"></a>
-<!-- 引入评论模块 -->
+<!-- Introducing the comment module -->
 {% include comment.html %}
-<!-- 引入goto模块 -->
+<!-- Introducing the goto module -->
 {% include goto.html %}
-<!-- 引入页面底部模块 -->
+<!-- Introduce the module at the bottom of the page -->
 {% include footer.html %}
 
-<!-- 引用wow.js的动画效果 -->
+<!-- Quote the animation effect of wow.js -->
 <script src="/assets/js/wow.js"></script>
 <script>
     var wow = new WOW({
@@ -57,10 +56,10 @@
     });
     wow.init();
 </script>
-<!-- 页面刷新回到顶部 -->
+<!-- Page refreshes back to top -->
 <script>
     window.onbeforeunload = function(){
-        //刷新后页面自动回到顶部
+        //The page automatically returns to the top after refreshing
         document.documentElement.scrollTop = 0;  //ie下
         document.body.scrollTop = 0;  //非ie
     }
