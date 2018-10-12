@@ -4,7 +4,7 @@
 
 ### Preview
 
-[Online preview view demo →](http://xseven.me/)
+[Online preview view demo →](http://jony-blog.github.io/)
 
 ![1](/screenshot/1.png)
 
@@ -41,7 +41,7 @@ To view the display on the mobile phone, scan the QR code browser below to open 
 - Add sitemap.xml support
 - change
 - Future dated posts are not *automatically rendered* FIX !
-- add a integrated GUI editor. and CMS-style graphical interface name **Jekyll Admin**. (Check in bellow in Configuration document)
+- add a integrated GUI editor. and CMS-style graphical interface name **Jekyll Admin**. ([Check in bellow in Configuration document](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Jekyll Admin))
 - and many other small modification that i don't remember correctly
 
 
@@ -50,7 +50,7 @@ To view the display on the mobile phone, scan the QR code browser below to open 
 
 #### Online deployment
 
-First, `github`open a repository named on `your-github-username.github.io`. And `clone`your local repository. Then download `HardCandy-Jekyll-Mod`the [source code](https://github.com/xukimseven/HardCandy-Jekyll) after the local, will `_config.yml`change the file to your own configuration (discussed next). After all of the files copied to the root directory of your local repository, and then uploaded to their `github`online repository, by domain name you can `https://your-github-username.github.io`access to see their blog pages.
+First, `github`open a repository named on `your-github-username.github.io`. And `clone`your local repository. Then download `HardCandy-Jekyll-Mod`the [source code](https://github.com/JonyBepary/HardCandy-Jekyll-Mod) after the local, will `_config.yml`change the file to your own configuration (discussed next). After all of the files copied to the root directory of your local repository, and then uploaded to their `github`online repository, by domain name you can `https://your-github-username.github.io`access to see their blog pages.
 
 ####
 
@@ -60,9 +60,27 @@ First installed locally `Jekyll` [please poke](https://www.jekyll.com/docs/quick
 
 After the installation is complete, use the command `jekyll -v`to view **jekyll version number** , if less than `jekyll 3.x.x`you need to upgrade to `jekyll 3.x.x`.
 
-Use  `gem install jekyll-paginate` or  `sudo gem install jekyll-paginate` install Jekyll's paging plugin.
+The source locally, in the terminal run:
 
-The source `clone`later locally, in the terminal into the `HardCandy-Jekyll`root directory, run  `jekyll server`or `bundle exec jekyll serve`to open jekyll service. Access through the browser [HTTP: // localhost: 4000](http://localhost:4000/) , you can see the local deployment of `HardCandy-Jekyll`the blog.
+```
+git clone https://github.com/JonyBepary/HardCandy-Jekyll-Mod.git   
+```
+
+ go to into the `HardCandy-Jekyll-Mod`root directory, in the terminal run:
+
+```
+cd HardCandy-Jekyll-Mod
+```
+
+for install required plugin,  in the terminal run:
+
+```
+bundle install
+```
+
+ 
+
+and finally run  `jekyll server`or `bundle exec jekyll serve`to open Jekyll service. Access through the browser [HTTP: // localhost: 4000](http://localhost:4000/) , you can see the local deployment of `HardCandy-Jekyll`the blog.
 
 > Warning! Points worth noting:
 >
@@ -73,22 +91,22 @@ The source `clone`later locally, in the terminal into the `HardCandy-Jekyll`root
 ### Configuration document
 
 - Start
-  - [About blog](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2)
-  - [write an essay](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E5%86%99%E6%96%87%E7%AB%A0)
-  -  [Jekyll-Admin integrated GUI editor. and CMS-style graphical interface]()
+  - [About blog](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#About blog)
+  - [write an essay](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#write an essay)
+  -  [Jekyll-Admin integrated GUI editor. and CMS-style graphical interface](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Jekyll Admin)
 - Component
-  - [Blogger personal information](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E5%8D%9A%E4%B8%BB%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF)
-  - [social media](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93)
-  - [Home display information](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E9%A6%96%E9%A1%B5%E6%98%BE%E7%A4%BA%E4%BF%A1%E6%81%AF)
-  - [Navigation Bar](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E5%AF%BC%E8%88%AA%E6%A0%8F)
-  - [Pagination](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E5%88%86%E9%A1%B5)
-  - [Code highlighting theme](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E4%B8%BB%E9%A2%98)
-  - [Links](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5)
-  - [Footer](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E9%A1%B5%E8%84%9A)
+  - [Blogger personal information](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Blogger personal information)
+  - [social media](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#social media)
+  - [Home display information](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Home display information)
+  - [Navigation Bar](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Navigation Bar)
+  - [Pagination](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Pagination)
+  - [Code highlighting theme](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Code highlighting theme)
+  - [Links](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Links)
+  - [Footer](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Footer)
 - Third party service
-  - [Comment system switching](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%88%87%E6%8D%A2)
-  - [Article sharing intersection](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E6%96%87%E7%AB%A0%E5%88%86%E4%BA%AB%E7%9A%84%E8%B7%AF%E5%8F%A3)
-  - [Website traffic tracking configuration](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#%E7%BD%91%E7%AB%99%E6%B5%81%E9%87%8F%E8%BF%BD%E7%BB%BC%E7%9A%84%E9%85%8D%E7%BD%AE)
+  - [Comment system switching](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Comment system switching)
+  - [Article sharing intersection](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Article sharing intersection)
+  - [Website traffic tracking configuration](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Website traffic tracking configuration)
 
 > By modifying the `_config.yml` files in general  , you can easily build your own personal blog.
 >
@@ -148,18 +166,25 @@ Here you need to fill in an image `url`, the `url`value can be an image on the l
 
 
 
-![5](/screenshot/5.png)Blogger personal information
+![5](/screenshot/5.png)
+
+### Blogger personal information
 
 ```
-#博主
-author : true
-name : ' your awesome name '
- NickName : ' your awesome nickname '
- webtitle : ' your awesome webtitle '
- bio : ' your awesome bio '
- about : true
-aboutyou : ' your introduction '
- portraits : ' /assets/profile .jpeg '  # your portraits image file path
+#Author/Blogger
+name: 'Jony Bepary'
+NickName: 'Jhon :)'
+webtitle: 'Code With Jhon'
+bio: 'Student, Computer Programmer And a Scented Soul'
+about: true
+aboutyou: "
+          your awesome story <br>
+          use br tag for new line <br>
+          and &\emsp for Chinese space
+          "
+portraits: '/assets/madara.png' # your portraits image file path
+
+
 ```
 
 This section displays the About bloggers page, and social media with the following illustration shows.
@@ -178,16 +203,16 @@ About about:
 
 
 
-<h3><a name="L1"></a>Jekyll Admin</h3>
+### Jekyll Admin
 
-A Jekyll plugin that provides users with a traditional CMS-style  graphical interface to author content and administer Jekyll sites. 
+A Jekyll plugin that provides users with a traditional CMS-style  graphical interface to author content and administer Jekyll sites.
 
 1. Start Jekyll as you would normally (`jekyll serve`)
 2. Navigate to `http://localhost:4000/admin` to access the administrative interface
 
 
 
-#### social media
+### social media
 
 ```yaml
 # Social Network Service
@@ -410,7 +435,7 @@ In `baidu-url`and `google-ID`the respective fill in the relevant information acq
 
 ### License license
 
-HardCandy-Jekyll is licensed under  [MIT](https://github.com/xukimseven/HardCandy-Jekyll/blob/master/LICENSE) .
+HardCandy-Jekyll is licensed under  [MIT](https://github.com/JonyBepary/HardCandy-Jekyll-Mod/blob/master/LICENSE) .
 
 ### Ask Star for attention
 

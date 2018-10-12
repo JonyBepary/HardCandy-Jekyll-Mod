@@ -35,6 +35,7 @@ GEM
       sinatra-contrib (~> 1.4)
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
@@ -88,6 +89,7 @@ DEPENDENCIES
   jekyll (~> 3.8.1)
   jekyll-admin
   jekyll-feed (~> 0.6)
+  jekyll-paginate
   jekyll-sitemap
   tzinfo-data
 
