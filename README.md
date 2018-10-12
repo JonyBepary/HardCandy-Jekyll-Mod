@@ -39,10 +39,19 @@ To view the display on the mobile phone, scan the QR code browser below to open 
 - Change friendslink to reLink.
 - Add a modified Background. you can revert back or change the background. but always use vecto image as background for optimal performance.
 - Add sitemap.xml support
-- change
+- change 404 Page (svg taken from [Henry W](https://codepen.io/henrywr/pen/XezdRr)  )
 - Future dated posts are not *automatically rendered* FIX !
 - add a integrated GUI editor. and CMS-style graphical interface name **Jekyll Admin**. ([Check in bellow in Configuration document](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Jekyll Admin))
-- and many other small modification that i don't remember correctly
+- and many other small modification that i don't remember correctly.
+
+
+
+### Upcomming in this Mod!!!
+
+- Add metadata tags for search engines and social networks to better index and display your site's content.
+- Maybe a search api. (Not sure) 
+- Enable emoji for all posts and pages. (don't know if this feature already added)
+- and anything that impress me.
 
 
 
