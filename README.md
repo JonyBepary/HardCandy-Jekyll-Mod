@@ -37,7 +37,7 @@ To view the display on the mobile phone, scan the QR code browser below to open 
 
 - Full language Translation in English. including README.md and all code Documentation.
 - Change friendslink to reLink.
-- Add a modified Background. you can revert back or change the background. but always use vecto image as background for optimal performance.
+- Add a modified Background. you can revert back or change the background. but always use vector image as background for optimal performance.
 - Add sitemap.xml support
 - change 404 Page (svg taken from [Henry W](https://codepen.io/henrywr/pen/XezdRr)  )
 - Future dated posts are not *automatically rendered* FIX !
