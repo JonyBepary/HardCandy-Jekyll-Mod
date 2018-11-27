@@ -7,10 +7,10 @@ url: 'https://abc.github.io' # your host
 # navigation bar：&emsp;
 nav: # best experience six labels and preferably no more than 4 Chinese characters per label
   Home : '/'
-  Tags : '/tags.html'
-  Timeline: '/timeline.html'
-  About: '/about.html'
-  reLink: '/reLink.html' # you can use this for share important link. like project, book, article, or other awesome blog. add link in freinds
+  Tags : '/tags/'
+  Timeline: '/timeline/'
+  About: '/about/'
+  reLink: '/reLink/'
 
 # Author/Blogger
 author: true
@@ -25,37 +25,32 @@ aboutyou: "
           and &\emsp for Chinese space
           "
 
-# aboutyou: 'Jony Bepary is a Parlor Programmer, lickerish Linux lover, &emsp and Open Source enthusiast.<br>
-#   He uses Linux (Arch) and believes in sharing knowledge. He is a hobbyist blogger. In his spare time, he writes the article on his favorite subjects. <br>
-# Apart from Blogging and Coding, He loves Ancient Philosophy, Researching About rare aromatic compound and Love To Reading books (novel&manga).'
-
-
-portraits: '/assets/madara.png' # your portraits image file path
+portraits: '/assets/madara.svg' # your portraits image file path
 
 # Future Post
-# it'll allow to publish future dated post from your time zone ;)
 future: true
 
 # Social Network Service
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:yourname@example.com'
-  github: 'https://github.com/example'
-  Codepen: 'https://codepen.io/example/#'
-  Twitter: 'https://twitter.com/@example'
-  instagram: 'https://www.instagram.com/example/'
-  Facebook: 'https://facebook.com/example'
-  Google: 'https://plus.google.com/+example'
-  weixin: '' # The address where your WeChat QR code is stored
-  qq: '' # The address where your qq QR code is stored or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  mail: 'mailto:sohelahmedjony@gmail.com'
+  github: 'https://github.com/JonyBepary'
+  Codepen: 'https://codepen.io/sohel-ahmed-jony/#'
+  Twitter: 'https://twitter.com/@JBepary'
+  instagram: 'https://www.instagram.com/sohelahmedjony/'
+  Facebook: 'https://facebook.com/sa.jhone'
+  Google: 'https://plus.google.com/+JonyBepary'
+  weixin: '' # 你的微信二维码存放的地址
+  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   weibo: ''
   Dribbble: ''
   zhihu: ''
   juejin: ''
   twitch: ''
 
+permalink: /blog/:title/   #simple and pretty permalink format
+
 # Pagination
-# the number of post you wanna show in a single page
 paginate: 4
 paginatepath: ['page:num']
 
@@ -70,22 +65,30 @@ kramdown:
   input: GFM
 # Code highlighting rouge
 highlighter: rouge
-# Code highlighting using pygments theme: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango (Choose one of the theme names you like and fill in the single quotes below.)
+
+# Code highlighting using pygments theme:
+#  1. autumn 2. default 3. emacs 4. friendly 5. manni
+#  6. murphy 7. pastie 8. perldoc 9. tango
+# (Choose one of the theme names you like and fill in the single quotes below.)
+
 pygmentsTheme: 'default'
 
-# reLinks
+# Links
 friends:
-  Jony's blog: 'http://jony-blog.github.io/'
-  XSeven's blog: 'http://xseven.me/'
   subeen's blog: 'http://subeen.com/'
   Corey Schafer: 'http://coreyms.com/'
+  C Book By knking: 'http://knking.com/books/c2/index.html'
+  Python Cookbook: 'http://shop.oreilly.com/product/0636920027072.do'
+  'বাংলায় প্রোগ্রামিং রিসোর্সসমূহ': 'https://github.com/me-shaon/bangla-programming-resources'
+  Freely available programming book: 'https://github.com/EbookFoundation/free-programming-books'
+  Grokking Algorithms (Best for Beginners who want learn Algorithms): 'https://www.manning.com/books/grokking-algorithms'
 
 
 # For Comments Best experience, Choose between disqus, liveRe and Gitment
 # disqus
 disqus: true
-disqus_url: 'https://username.disqus.com/embed.js' #
-# liveRe
+disqus_url: 'https://jonysblog.disqus.com/embed.js' #
+# liveRe (works great in china)
 livere: false
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment OAuth Application
@@ -95,22 +98,47 @@ Gitment_repo: ''  # github博客存放的仓库名
 client_id: ''  # 注册 OAuth Application 后获得的 client_id
 client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
-# Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
+# Share : linkedin, facebook, twitter, google, diandian, weibo, qq, wechat, tencent, douban, qzone
 social-share: true
-social-share-items: ['facebook', 'twitter', 'google', 'linkedin',]
+social-share-items: ['facebook', 'twitter', 'google', 'linkedin', diandian, 'weibo', 'qq', 'wechat', 'tencent', 'douban', 'qzone']
 
 # Baidu statistics fill in the relevant url code in baidu-url
 baidu: false
 baidu-url: ''
 # Google Analytics Fill in your own tracking ID in Google Analytics in google-ID:''
 google: true
-google-ID: '<UA-********-x>'
+google-ID: '<UA-42070905-2>'
 
 # Blog header information alternative color (this part does not act as a site variable in the site, it is written in the header of the post to serve as a page variable)
 
 color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+
+#seo tag
+logo: /assets/banner.png
+
+twitter:
+  username: your_name # your twitter name
+  card: summary
+
+social:
+  name: your_name # your name
+  links:
+    - 'mailto:yourname@example.com'
+    - 'https://github.com/example'
+    - 'https://codepen.io/example/#'
+    - 'https://twitter.com/@example'
+    - 'https://www.instagram.com/example/'
+    - 'https://facebook.com/example'
+    - 'https://plus.google.com/+example'
+
+webmaster_verifications:
+  google: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 exclude:
   - screenshot
@@ -128,3 +156,6 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+  - package-lock.json
+  - gulpconfig.json
+
