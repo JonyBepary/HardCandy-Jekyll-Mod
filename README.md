@@ -4,7 +4,7 @@
 
 ### Preview
 
-[在线预览 view demo →](http://xseven.me/)
+[Online preview view demo →](http://jony-blog.github.io/)
 
 ![1](/screenshot/1.png)
 
@@ -12,103 +12,142 @@
 
 ![3](/screenshot/3.png)
 
-想要查看手机端显示效果，扫描下方二维码浏览器打开即可
+To view the display on the mobile phone, scan the QR code browser below to open it.
 
 ![4](/screenshot/4.png)
 
 
 
-### 主题特性
+- ### Theme feature
 
-- 主题基于 `jekyll 3.8.1` 开发
-- 响应式布局
-- 文章标签索引
-- 文章时间线索引
-- 博主个人信息展示
-- 支持9种代码高亮主题色
-- 支持 `dispus` 、 `来必力` 、 `Gitment` 三种评论系统
-- 支持 `百度统计` 、`谷歌分析` 两种网站追踪系统
-- 支持13款不同社交平台图标及链接地址指向
-- 支持11个不同平台的文章分享路口
-
-
-
-### 开始使用
-
-#### 线上部署
-
-​	首先在 `github` 上开启一个仓库起名为 `你的github用户名.github.io` 。并 `clone` 你的仓库到本地。 然后下载 `HardCandy-Jekyll` 的 [源码](https://github.com/xukimseven/HardCandy-Jekyll) 到本地之后，将 `_config.yml` 文件更改为自己的配置（下面会介绍）。之后，将所有文件拷贝至自己的本地仓库根目录下，再上传至自己的 `github` 线上仓库，即可通过域名 `https://你的github用户名.github.io` 访问看到自己的博客页面。
-
-#### 本地部署
-
-​	首先在本地安装 `Jekyll` [详情请戳](https://www.jekyll.com.cn/docs/quickstart/)
-
-​	安装完成之后，使用命令 `jekyll -v` 查看 **jekyll版本号** ，若低于 `jekyll 3.x.x` 则需要升级至 `jekyll 3.x.x` 。 
-
-​	使用 `gem install jekyll-paginate` 或 `sudo gem install jekyll-paginate` 安装Jekyll的分页插件。
-
-​	将源码 `clone` 到本地后，在终端进入 `HardCandy-Jekyll` 根目录，运行 `jekyll server` 或 `bundle exec jekyll serve` ，即可开启jekyll的服务。通过浏览器访问 [http://localhost:4000](http://localhost:4000) ，即可看到本地部署的 `HardCandy-Jekyll` 博客了。
-
-> warning！值得注意的地方：
->
-> ​	由于本主题是基于 `jekyll 3.8.1` 开发 ，jekyll的版本差异也许会导致相关显示效果的差异。详情请参考官方文档：[news](https://jekyllrb.com/news/)
+  - Theme-based `jekyll 3.8.1`development
+  - Responsive layout
+  - Article tag index
+  - Article timeline index
+  - Blogger personal information display
+  - Support 9 kinds of code highlighting theme colors
+  - Support `dispus`, `laibili`, `Gitment`three kinds comment system
+  - Support `Baidu statistic ` , `Google Analytics` two website tracking systems
+  - Support 13 different social platform icons and link address pointing
+  - Support article sharing intersections on 11 different platforms
 
 
 
-### 配置文档
+### What new in this Mod?
 
-- 开始
-  - [关于博客](#关于博客)
-  - [写文章](#写文章)
-- 组件
-  - [博主个人信息](#博主个人信息)
-  - [社交媒体](#社交媒体)
-  - [首页显示信息](#首页显示信息)
-  - [导航栏](#导航栏)
-  - [分页](#分页)
-  - [代码高亮主题](#代码高亮主题)
-  - [友情链接](#友情链接)
-  - [页脚](#页脚)
-- 第三方服务
-  - [评论系统的切换](#评论系统的切换)
-  - [文章分享的路口](#文章分享的路口)
-  - [网站流量追综的配置](#网站流量追综的配置)
+- Full language Translation in English. including README.md and all code Documentation.
+- Change friendslink to reLink.
+- Add a modified Background. you can revert back or change the background. but always use vector image as background for optimal performance.
+- Add sitemap.xml support
+- change 404 Page (svg taken from [Henry W](https://codepen.io/henrywr/pen/XezdRr)  )
+- Future dated posts are not *automatically rendered* FIX !
+- add a integrated GUI editor. and CMS-style graphical interface name **Jekyll Admin**. ([Check in bellow in Configuration document](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Jekyll Admin))
+- and many other small modification that i don't remember correctly.
 
 
 
-> ​	通用修改 `_config.yml` 文件，你便可以轻松搭建属于你自己的个人博客。
->
-> ​	一部分配置，默认已经是配置好的，你只需要修改下面列出的内容即可完成搭建。
+### Upcomming in this Mod!!!
+
+- Add metadata tags for search engines and social networks to better index and display your site's content.
+- Maybe a search api. (Not sure)
+- Enable emoji for all posts and pages. (don't know if this feature already added)
+- and anything that impress me.
 
 
 
-#### 关于博客
+### start using
 
-```yaml
----
-# Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
----
+#### Online deployment
+
+First, `github`open a repository named on `your-github-username.github.io`. And `clone`your local repository. Then download `HardCandy-Jekyll-Mod`the [source code](https://github.com/JonyBepary/HardCandy-Jekyll-Mod) after the local, will `_config.yml`change the file to your own configuration (discussed next). After all of the files copied to the root directory of your local repository, and then uploaded to their `github`online repository, by domain name you can `https://your-github-username.github.io`access to see their blog pages.
+
+####
+
+#### Local deployment
+
+First installed locally `Jekyll` [please poke](https://www.jekyll.com/docs/quickstart/)
+
+After the installation is complete, use the command `jekyll -v`to view **jekyll version number** , if less than `jekyll 3.x.x`you need to upgrade to `jekyll 3.x.x`.
+
+The source locally, in the terminal run:
+
+```
+git clone https://github.com/JonyBepary/HardCandy-Jekyll-Mod.git
 ```
 
-`title` ：用于页面的 title 标签的显示内容
+ go to into the `HardCandy-Jekyll-Mod`root directory, in the terminal run:
 
-`description` ：网站的简介
+```
+cd HardCandy-Jekyll-Mod
+```
 
-`keywords` ：网站的关键词
+for install required plugin,  in the terminal run:
 
-`url` ：网站域名
+```
+bundle install
+```
 
 
 
-#### 写文章
+and finally run  `jekyll server`or `bundle exec jekyll serve`to open Jekyll service. Access through the browser [HTTP: // localhost: 4000](http://localhost:4000/) , you can see the local deployment of `HardCandy-Jekyll`the blog.
 
-​	博客通过解析 `markdown` 文件来部署文章页面的，所以用户写文章只需要写一篇markdown，并放置在站点根目录下的 `_post` 文件夹即可。具体的markdown语法自行上网搜索学习，或使用markdown编辑器进行写作。推荐一款 markdown编辑器：[typora](https://www.typora.io) 。支持 windows 、mac OSX 、Linux 。
+> Warning! Points worth noting:
+>
+> Since this topic is based on the `jekyll 3.8.1`development of version differences jekyll may lead to differences related to the display. Please refer to the official document for details: [news](https://jekyllrb.com/news/)
 
-关于文章 YAML头信息：
+
+
+### Configuration document
+
+- Start
+  - [About blog](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#About blog)
+  - [write an essay](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#write an essay)
+  -  [Jekyll-Admin integrated GUI editor. and CMS-style graphical interface](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Jekyll Admin)
+- Component
+  - [Blogger personal information](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Blogger personal information)
+  - [social media](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#social media)
+  - [Home display information](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Home display information)
+  - [Navigation Bar](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Navigation Bar)
+  - [Pagination](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Pagination)
+  - [Code highlighting theme](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Code highlighting theme)
+  - [Links](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Links)
+  - [Footer](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Footer)
+- Third party service
+  - [Comment system switching](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Comment system switching)
+  - [Article sharing intersection](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Article sharing intersection)
+  - [Website traffic tracking configuration](https://github.com/JonyBepary/HardCandy-Jekyll-Mod#Website traffic tracking configuration)
+
+> By modifying the `_config.yml` files in general  , you can easily build your own personal blog.
+>
+> Part of the configuration, the default is already configured, you only need to modify the contents listed below to complete the construction.
+
+#### About blog
+
+```
+---
+ # Site settings Configuring the site
+title : ' your awesome title '
+ description : ' your web description '
+ keywords : ' your web keywords, another keywords '
+ url : ' https://abc.github.io '  # your host
+-- -
+```
+
+`title` : display content for the title tag of the page
+
+`description` : Introduction to the website
+
+`keywords` : Website Keywords
+
+`url` : Website domain name
+
+####
+
+#### write an essay
+
+Blog by parsing `markdown`to deploy the full text of the page, so users only need to write articles write a markdown, and placed in the site root `_post`folder. The specific markdown syntax searches online for learning, or writes using the markdown editor. Recommend a markdown editor: [typora](https://www.typora.io/) . Support windows, mac OSX, Linux.
+
+About the article YAML header information:
 
 ```yaml
 layout: post
@@ -119,89 +158,107 @@ tags: html js css
 description: ''
 color: 'rgb(154,133,255)'
 cover: ''
+typora-root-url: ".."
 ```
 
-关于color：
+About color:
 
-​	此处的color用于post页面的顶部位置的背景色。如上面展示图所示为 `rgb(154,133,255)` 色。
+The color here is used for the background color of the top position of the post page. As shown above is shown in FIG `rgb(154,133,255)`color.
 
-​	对于color的书写，如果颜色代码为 `rgb` 或 `rgba` 又或是 `英文单词` 的话，可以不用引号包裹，但如果颜色代码为 `#123456` 这种16进制码的话，就必须使用引号包裹。所以，在使用中，推荐一致都使用引号，以免错误使用。
+For writing color, if the color code `rgb`or `rgba`another or `英文单词`, you can not wrapped in quotes, but if the color code `#123456`this hexadecimal code, then it must be wrapped in quotation marks. Therefore, in use, it is recommended to use quotation marks in order to avoid misuse.
 
-​	当然，如果你在书写文章时，忘记写color的值的话，主题默认会为你填写 `rgb(154,133,255)` 色。就是上图显示的颜色。虽然不影响页面的显示，但如果想要更多彩的页面效果的话，建议在每一篇的头信息里写上 color 值。
+Of course, if you're writing articles, forget the color value is written, then the default theme will be filled in as you `rgb(154,133,255)`color. This is the color shown in the image above. Although it does not affect the display of the page, if you want more colorful page effects, it is recommended to write the color value in each header.
 
-关于cover：
+About cover:
 
-​	此处需填写某一张图片的 `url` ，`url` 值可以是线上的某张图片，也可以是博客目录下的图片。关键是要书写正确。这张图片用于在首页下博客列表里显示，如下图。
+Here you need to fill in an image `url`, the `url`value can be an image on the line, or it can be an image in the blog directory. The key is to write correctly. This image is used in the blog list under the home page, as shown below.
+
+
 
 ![5](/screenshot/5.png)
 
+### Blogger personal information
 
-
-#### 博主个人信息
-
-```yaml
-# 博主
-author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+```
+#Author/Blogger
+name: 'Jony Bepary'
+NickName: 'Jhon :)'
+webtitle: 'Code With Jhon'
+bio: 'Student, Computer Programmer And a Scented Soul'
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou: "
+          your awesome story <br>
+          use br tag for new line <br>
+          and &\emsp for Chinese space
+          "
+portraits: '/assets/madara.png' # your portraits image file path
+
+
 ```
 
-​	该部分显示在 `关于博主` 页面，与 `社交媒体` 一同在下图显示。
+This section displays the About bloggers page, and social media with the following illustration shows.
+
+
 
 ![6](/screenshot/6.png)
 
-关于author：
+About author:
 
-​	使用 `true` 或者 `false` 来打开或关闭博主信息卡片，默认 true ，最佳体验也是 true 。
+​ Use true or false to turn the blog info card on or off. The default is true and the best experience is true .
 
-关于about：
+About about:
 
-​	使用 `true` 或者 `false` 来打开或关闭博主关于信息，即是否显示 aboutyou 部分的信息。默认 true ，该部分需要在 aboutyou 中输入相关信息，支持在此填写html代码。
+​ Use true or false to turn blog owners on or off, that is, whether to display information about the aboutyou section. The default is true , this part needs to enter relevant information in aboutyou, support to fill in the html code here.
 
 
 
-#### 社交媒体
+### Jekyll Admin
+
+A Jekyll plugin that provides users with a traditional CMS-style  graphical interface to author content and administer Jekyll sites.
+
+1. Start Jekyll as you would normally (`jekyll serve`)
+2. Navigate to `http://localhost:4000/admin` to access the administrative interface
+
+
+
+### social media
 
 ```yaml
-# SNS
+# Social Network Service
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
-  Codepen: ''
+  mail: 'mailto:yourname@example.com'
+  github: 'https://github.com/example'
+  Codepen: 'https://codepen.io/example/#'
+  Twitter: 'https://twitter.com/@example'
+  instagram: 'https://www.instagram.com/example/'
+  Facebook: 'https://facebook.com/example'
+  Google: 'https://plus.google.com/+example'
+  weixin: '' # The address where your WeChat QR code is stored
+  qq: '' # The address where your qq QR code is stored or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   weibo: ''
-  instagram: ''
-  Twitter: ''
   Dribbble: ''
-  Facebook: ''
-  Google: ''
   zhihu: ''
   juejin: ''
   twitch: ''
+
 ```
 
-​	~~主题一共配置了 13种 社交媒体的图标，只要在需要开启的社交账号的名字后填写你的个人主页链接即可，不需要开启的就在那一行的头部用 `#` 注释这一行即可。同样的，如果需要更换每个图标的排列位置，只需要改变他们的每一行排列的顺序即可。~~
+​ ~~A total of 13 kinds of theme configuration of social media icons, as long as the name of the need to open a social account fill your personal home page link, do not need to open it with the head of the line `#`to comment this line. Similarly, if you need to change the arrangement of each icon, you only need to change the order in which each row is arranged.~~
 
-​	在 `SNS` 后填写  `true` 或者 `false` 来打开或者关闭这一部分。
+​ In the `SNS`fill `true`or `false`to open or close this part.
 
-2018/09/28 更新：
+2018/09/28 update:
 
 ![7](/screenshot/sns-icon.png)
 
-- 更新社交图标为 线上地址 ，便于管理与修改。
-- 添加 **Codepen** 图标
-- 修改原来的圆形图标为不规则图标
+- Update social icons to online addresses for easy management and modification.
+- Add Codepen icon
+- Modify the original round icon as an irregular icon
 
 
 
-#### 首页显示信息
+####  Home display information
 
 ```yaml
 ---
@@ -213,54 +270,56 @@ description: description
 ---
 ```
 
-​	该部分位于 `index.html` 页面，修改 `title` 、`page-title` 、`home-title`  、`description`为个人想要的信息，默认配置的显示效果如下图。
+​ Which is located `index.html`, Modify `title`, `page-title`, `home-title` , `description`for the personal information desired, the default display configuration as FIG.
 
 ![7](/screenshot/7.png)
 
 
 
-#### 导航栏
+#### Navigation Bar
 
 ```yaml
-# nav 中文字符空格：&emsp;
-nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+# navigation bar：&emsp;
+nav: # best experience six labels and preferably no more than 4 Chinese characters per label
+  Home : '/'
+  Tags : '/tags.html'
+  Timeline: '/timeline.html'
+  About: '/about.html'
+  reLink: '/reLink.html' # you can use this for share important link. like project, book, article, or other awesome blog. add link in freinds
+
 ```
 
-​	默认全部开启他们，当然如果想要自己添加，按照格式填在下方即可，当然页面显示顺序与每一行的位置有关。
+​ They are all enabled by default, of course, if you want to add them yourself, fill in the format below, of course, the page display order is related to the position of each line.
 
 
 
-#### 分页
+#### Pagination
 
 ```yaml
-# 分页
-paginate: 2
+# Pagination
+# the number of post you wanna show in a first page
+paginate: 4
 paginatepath: ['page:num']
 ```
 
-​	随个人爱好在，在上面填写你需要的在首页一页最多显示多少篇博客的数字。
+With your personal hobbies, fill in the number of blogs you need to display at most on the first page of your page.
 
-​	本地部署的需要使用 `gem install jekyll-paginate` 或 `sudo gem install jekyll-paginate` 安装Jekyll的分页插件。
+Local deployment requires the use  `gem install jekyll-paginate` or  `sudo gem install jekyll-paginate` installation of Jekyll's paging plugin.
 
 
 
-#### 代码高亮主题
+#### Code highlighting theme
 
 ```yaml
-# 代码高亮 使用rouge
-highlighter: rouge
-# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
-pygmentsTheme: 'default'
+#Highlight using rouge
+highlighter : rouge
+#Highlight theme using pygments theme: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango Choose one of your favorite theme names in the single quotes below
+pygmentsTheme : ' default '
 ```
 
-​	代码高亮使用 jekyll3.0 之后的默认高亮引擎 `rouge` 。关于主题，只需要在 `pygmentsTheme` 后填写喜欢的主题名称即可。共有9款主题可选，主题名见上文。
+The code highlights the default highlighting engine after jekyll3.0 `rouge`. On the subject, only you need `pygmentsTheme`to fill in the name of the theme can be like after. There are 9 themes to choose from, the theme names are as above.
 
-​	代码高亮的写法：
+Code highlighting:
 
 ~~~markdown
 ``` css
@@ -271,27 +330,34 @@ pygmentsTheme: 'default'
 ```
 ~~~
 
-2018/09/28 更新：
+2018/09/28 update：
 
 ![7](/screenshot/博客代码高亮例子.png)
 
-上图为 **代码高亮试例图** ，仅以 html 作为参考例子，其他代码参考 上图，或自行切换测试选择自己喜欢的代码高亮主题
+The above picture shows the code highlighting test case. Only html is used as a reference example. For other code, refer to the above figure, or switch the test yourself and choose your favorite code highlighting theme.
 
 
 
-#### 友情链接
+#### Links
 
 ```yaml
-# 友情链接
+# reLinks
 friends:
-  jekyll: 'https://www.jekyll.com.cn/'
+  Jony's blog: 'http://jony-blog.github.io/'
+  XSeven's blog: 'http://xseven.me/'
+  subeen's blog: 'http://subeen.com/'
+  Corey Schafer: 'http://coreyms.com/'
 ```
 
-​	按格式填写即可，排序与配置文件里的排序有关。
+Fill in the format, the sorting is related to the sorting in the configuration file.
+
+you can use this for share important link. like project, book, article, or other awesome blog. add link in freinds
+
+####
 
 
 
-#### 页脚
+#### Footer
 
 ```yaml
 # since
@@ -299,21 +365,21 @@ footer:
   since: 2018
 ```
 
-​	用于页脚显示时间。
+Used for the footer display time.
 
 
 
-#### 评论系统的切换
+#### Comment system switching
 
 ```yaml
-# 评论 最佳体验 在disqus、livere和Gitment之间三选一
-# disqus 评论
-disqus: false
-disqus_url: '' # https://abc.disqus.com/embed.js
-# 来必力评论
-livere: true
+# For Comments Best experience, Choose between disqus, liveRe and Gitment
+# disqus
+disqus: true
+disqus_url: 'https://username.disqus.com/embed.js' #
+# liveRe
+livere: false
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment评论 OAuth Application
+# Gitment OAuth Application
 Gitment: false
 Gitment_owner: ''  # github用户名
 Gitment_repo: ''  # github博客存放的仓库名
@@ -321,63 +387,65 @@ client_id: ''  # 注册 OAuth Application 后获得的 client_id
 client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 ```
 
-​	按申请第三方评论是获取的相关信息在配置文件中进行填写即可。
+​ According to the application for the third-party comment, the relevant information obtained can be filled in the configuration file.
 
-​	共有三款评论可供选择，使用 `true` 或者 `false` 开启或关闭某个评论系统。可开启多个甚至全开。当然，最佳体验，开一个即可。
+There are three to choose from comment, use `true`or `false`open or close a commenting system. Can be opened multiple or even fully open. Of course, the best experience, just open one.
 
-​	三款评论的样式如下图：
+The styles of the three reviews are as follows:
+
+
 
 dispus：
 
 ![8](/screenshot/8.png)
 
-来必力：
+来必力/laibili：
 
 ![9](/screenshot/9.png)
 
-Gitment评论：
+Gitment comment：
 
 ![10](/screenshot/10.png)
 
-​	三款评论各有各的优势与坏处。出于显示样式与中国大陆网络环境考虑，主题默认开启 `来必力` 评论为最佳体验。当然需要填写好相关的 `livere_uid` 代码。
+
+
+Each of the three comments has its own strengths and weaknesses. For the display style and mainland China network of environmental considerations, the topic turned on by default `来必力`commentary for the best experience. Of course, you need to fill up the relevant `livere_uid`code.
 
 
 
-#### 文章分享的路口
+#### Article sharing intersection
 
 ```yaml
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
-social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+social-share-items: ['facebook', 'twitter', 'google', 'linkedin',]
 ```
 
-​	为了让文章更方便地分享，使用了第三方分享插件[Share.js](http://overtrue.github.io/share.js/)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
-
-​	只需要填写相关的名称在 `social-share-items` 后即可，显示顺序与书写顺序有关。
 
 
+In order to make the article more convenient to share, the third-party sharing plug-in [Share.js is](http://overtrue.github.io/share.js/) used to support one-click sharing to Facebook, Twitter, Linkedin, Google+,  Weibo, QQ space, QQ friends, WeChat, Tencent Weibo, Douban and a little bit. And other social networking sites.
 
-#### 网站流量追综的配置
+Simply fill in the relevant name in `social-share-items`the can, the display order from the writing order relevant.
+
+
+
+#### Website traffic tracking configuration
 
 ```yaml
-# 百度统计 在baidu-url里填写自己相关的url代码
-baidu: true
+# Baidu statistics fill in the relevant url code in baidu-url
+baidu: false
 baidu-url: ''
-# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
-google: false
-google-ID: ''
+# Google Analytics Fill in your own tracking ID in Google Analytics in google-ID:''
+google: true
+google-ID: '<UA-********-**>'
 ```
 
-​	在 `baidu-url` 和 `google-ID` 分别填上注册获取的相关信息。使用 `true` 或者 `false` 开启或关闭他们。出于中国大陆网络环境，默认开启 百度统计 ，当然可以多开。
+In `baidu-url`and `google-ID`the respective fill in the relevant information acquired by registration. Use `true`or `false`open or close them. For the Chinese mainland network environment, Baidu statistics are enabled by default, of course, you can open more.
 
+### License license
 
+HardCandy-Jekyll is licensed under  [MIT](https://github.com/JonyBepary/HardCandy-Jekyll-Mod/blob/master/LICENSE) .
 
-### License 许可证
+### Ask Star for attention
 
-HardCandy-Jekyll is licensed under [MIT](https://github.com/xukimseven/HardCandy-Jekyll/blob/master/LICENSE).
-
-
-
-### 求Star 求关注
-
-看到这里，如果你喜欢我的小项目，欢迎下载使用他，也请你为我点个小星星 😜 ，多谢。
+See here, if you like [his](https://github.com/xukimseven/) small project, welcome to download and use him, please also give him a little star ![Stuck_out_tongue_winking_eye](https://assets-cdn.github.com/images/icons/emoji/unicode/1f61c.png) Thank you.
