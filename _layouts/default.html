@@ -5,8 +5,8 @@
 <!-- Introducing the head tag -->
 {% include head.html %}
 </head>
-<body>
-<!-- Page body -->
+<body onload="loaderFunc()">
+{% include loader_body.html %}
 {{ content }}
 
 <!-- Quote the animation effect of wow.js -->
@@ -21,6 +21,7 @@
     });
     wow.init();
 </script>
+
 <!-- Page refreshes back to top -->
 <script>
     window.onbeforeunload = function(){
@@ -29,6 +30,8 @@
         document.body.scrollTop = 0;  //非ie
     }
 </script>
+
+{% include loader_script.html %}
 
 </body>
 </html>

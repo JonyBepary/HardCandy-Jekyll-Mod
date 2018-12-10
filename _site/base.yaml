@@ -1,0 +1,46 @@
+
+# Author/Blogger
+author: true
+name: 'Jony Bepary'
+familyname: 'Bepary'
+NickName: 'Jhon :)'
+webtitle: 'Code With Jhon'
+bio: 'Student, Computer Programmer And a Scented Soul'
+about: true
+aboutyou: "
+          your awesome story <br>
+          use br tag for new line <br>
+          and &\emsp for Chinese space
+          "
+portraits: '/assets/madara.svg' # your portraits image file path for website
+
+
+# Author information for SEO
+honorificPrefix: "MD."
+name: "Jony Bepary"
+image: "/assets/JHON.jpg"       # your portraits image file path for seo
+familyName: "Bepary"
+honorificSuffix: "King"
+disambiguatingDescription: "Jony Bepary is a Bangladeshi Software Scientist who is the creator, And the principal developer of the Amenominaka, which is Said to be the most powerful and easy Jekyll management tool"
+birthPlace: "Nawdoba, Janjira, Shariatpur"
+birthDate: "1997.10.25"
+height: "72 inches"
+gender: "male"
+memberOf: "Linux Bangladesh"
+nationality: "Bangladeshi"
+jobTitle: "Technical support of Software"
+knowsAbout: ["C", "Python", "Algorithm", "Web", "Full Stack"]
+knowsLanguage: ["Bangla, English"]
+
+worksFor:
+  type: "LocalBusiness"
+  name: "RB Telecom"
+  openingHours: "Sa-Fr 09:00-21:00"
+  priceRange: "$$$"
+  telephone: ["01719592594", "01770055633"]
+  image: "https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-0/c0.0.370.370/p370x247/22405584_136350086997737_4911101606944262040_n.jpg?_nc_cat=105&_nc_eui2=AeH5_cb29jzX1yn_Mt6IsMfKMQMKbgvDNR8K2lB_9DvfBsMhekUNLMl0SOH2qsVFkwlKD87NxqT1otBgPTryuMT2p7zOe4Ziyv8Xcxg8ia9JSA&oh=081667171756dc6a7c810b5be4ab399f&oe=5C4BAF7D"
+  address:
+    type: "PostalAddress"
+    addressCountry: "Bangladesh"
+    addressLocality: "Paschim Naodoba, Jajira, Shariatpur"
+    addressRegion: "Dhaka"

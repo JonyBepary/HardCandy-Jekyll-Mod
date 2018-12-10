@@ -3,12 +3,13 @@
 <html>
 <head>
 <!-- Introducing the head tag -->
+
 {% include head.html %}
 {% include androidColor.html %}
 
 </head>
-<body>
-
+<body onload="loaderFunc()">
+{% include loader_body.html %}
 <!-- Top anchor -->
 <a id="htmlup" name="htmlup"></a>
 <!-- Introduce blog post options -->
@@ -65,8 +66,11 @@
         document.body.scrollTop = 0;  //非ie
     }
 </script>
-<script src="/assets/js/main.js"></script>
+
+<!-- preloder script -->
+<!-- end -->
 {% include new-window-fix.html %}
 {% include open-embed.html %}
+{% include loader_script.html %}
 </body>
 </html>

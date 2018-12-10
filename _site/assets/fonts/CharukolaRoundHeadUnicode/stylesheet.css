@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Charukola Round Head Unicode';
+    src: url('CharukolaRoundHeadUnicode.eot');
+    src: url('CharukolaRoundHeadUnicode.eot?#iefix') format('embedded-opentype'),
+        url('CharukolaRoundHeadUnicode.woff2') format('woff2'),
+        url('CharukolaRoundHeadUnicode.woff') format('woff'),
+        url('CharukolaRoundHeadUnicode.ttf') format('truetype'),
+        url('CharukolaRoundHeadUnicode.svg#CharukolaRoundHeadUnicode') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

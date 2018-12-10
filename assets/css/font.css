@@ -1,3 +1,29 @@
+
+/* CharukolaRoundHeadUnicode Bangla */
+@font-face {
+    font-family: 'CharukolaRoundHeadUnicode';
+    src: url('../fonts/CharukolaRoundHeadUnicode/CharukolaRoundHeadUnicode.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/CharukolaRoundHeadUnicode/CharukolaRoundHeadUnicode.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CharukolaRoundHeadUnicode/CharukolaRoundHeadUnicode.woff') format('woff'),/* Modern Browsers */
+         url('../fonts/CharukolaRoundHeadUnicode/CharukolaRoundHeadUnicode.ttf') format('truetype'),/* Safari, Android, iOS */
+         url('../fonts/CharukolaUltraLight/CharukolaUltraLight.svg#CharukolaRoundHeadUnicode') format('svg');/* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0980-09FE; /*//Bangla Range (source: http://www.unicode.org/charts/PDF/U0980.pdf‎‎)*/
+}
+/* CharukolaUltraLightUnicode Bangla */
+@font-face {
+    font-family: 'CharukolaUltraLightUnicode';
+    src: url('../fonts/CharukolaUltraLight/CharukolaUltraLight.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/CharukolaUltraLight/CharukolaUltraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CharukolaUltraLight/CharukolaUltraLight.woff') format('woff'),/* Modern Browsers */
+         url('../fonts/CharukolaUltraLight/CharukolaUltraLight.ttf') format('truetype'),/* Safari, Android, iOS */
+         url('../fonts/CharukolaUltraLight/CharukolaUltraLight.svg#CharukolaUltraLightUnicode') format('svg');/* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0980-09FE; /*//Bangla Range (source: http://www.unicode.org/charts/PDF/U0980.pdf‎‎)*/
+}
+
 /* ffad_matro字体 */
 @font-face {
     font-family: 'ffad_matroregular';

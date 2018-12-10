@@ -1,31 +1,61 @@
 # Site settings
 title: 'your awesome title'
-description: 'your web description'
+page-title: Your Blog.
+home-title: It's Your
+description: Thoughts, Stories and Ideas
 keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
-
+url: 'https://demo-hardacandy.github.io' # your host
 # navigation bar：&emsp;
-nav: # best experience six labels and preferably no more than 4 Chinese characters per label
+nav:
+# best experience six labels and preferably no more than 4 Chinese characters per label
   Home : '/'
   Tags : '/tags/'
   Timeline: '/timeline/'
   About: '/about/'
   reLink: '/reLink/'
 
-# Author/Blogger
 author: true
-name: 'Jony Bepary'
-NickName: 'Jhon :)'
-webtitle: 'Code With Jhon'
-bio: 'Student, Computer Programmer And a Scented Soul'
+name: "Your Beutiful Name"
+NickName: 'NickName'
+webtitle: 'Your awesome title'
+bio: 'Your magnaficient Bio'
 about: true
 aboutyou: "
           your awesome story <br>
           use br tag for new line <br>
           and &\emsp for Chinese space
           "
+portraits: '/assets/madara.svg'           # your portraits image file path for website
 
-portraits: '/assets/madara.svg' # your portraits image file path
+
+# Author information for SEO
+honorificPrefix: "***"                    # Mohd., MD, Mr, Mrs, Miss, Ms, Mx, Sir, Dr, Lady or Lord,
+image: "/assets/JHON.jpg"                 # your portraits image file path for seo
+familyname: 'Your family name'
+honorificSuffix: "King"                   # Shah, Chisty, shi, Deholovi, Kandolovi, Hathajari, Druj, Vandari
+disambiguatingDescription: "Your awesome description"
+birthPlace: "Your address"
+birthDate: "Your Date of Birth"
+height: "XX inches"                       # "72 inches"
+gender: "Your gender"                     # Male/Female/Other
+memberOf: "Your awesome orgranization"
+nationality: "Your proud nationality"     # Bangladeshi, Japanease, Indian, African etc.
+jobTitle: "Your Respectful Position"      # CEO, MD, Devloper, Manager etc.
+knowsAbout: "Your awesome Skill"          #["Coding", "Painting", "Algorithm", "Web", "Mangament"]
+knowsLanguage: ""                         #["Bangla, English"]
+
+worksFor:
+  type: "LocalBusiness"                                 # Comapany Type
+  name: "" #"RB Telecom"                                # Comapany name
+  openingHours: "Sa-Fr 09:00-21:00"                     # Comapany Opennign Hours
+  priceRange: "$$$"
+  telephone: ["+8801XXXXXXXX", "+8801XXXXXXXXX"]        # Comapanye telephone
+  image: "https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-0/c0.0.370.370/p370x247/22405584_136350086997737_4911101606944262040_n.jpg?_nc_cat=105&_nc_eui2=AeH5_cb29jzX1yn_Mt6IsMfKMQMKbgvDNR8K2lB_9DvfBsMhekUNLMl0SOH2qsVFkwlKD87NxqT1otBgPTryuMT2p7zOe4Ziyv8Xcxg8ia9JSA&oh=081667171756dc6a7c810b5be4ab399f&oe=5C4BAF7D"   # Comapany logo or image
+  address:
+    type: "PostalAddress"
+    addressCountry: ""  #"Bangladesh"
+    addressLocality: "" #"Paschim Naodoba, Jajira, Shariatpur"
+    addressRegion: ""   #"Dhaka"
 
 # Future Post
 future: true

@@ -1,5 +1,5 @@
 ## HardCandy-Jekyll
-
+### Now it's more than just a mod!!!
 
 
 ### Preview
@@ -33,7 +33,23 @@ To view the display on the mobile phone, scan the QR code browser below to open 
 
 
 
-### What new in this Mod?
+### What new in this Mod (2.2)?
+- Improve sitemap.xml format
+- font improvment in post content.
+- Change 404 Page Now Created by me.
+- boosted some vector & ruster file
+- Added built in webmaster verifications
+- Shifted some external Javascrip in /assets
+- Beutify nav bar url. Now URL looks more stylish.
+- Prettify parmalink now Web Url looks more fresh and dynamic.
+- Aded nice preloader (pure css) for better user experience. Thanks to @akshaycodes
+- Added seotag for imroving social media presence and providing more detail about particular entities on the page.
+- The mp3 embedder can detects URL’s that point to mp3 files and replaces them with a default HTML5 player. more on Description.
+- SEO (Search engine optimization) for increasing the quality and quantity of traffic to your website through organic search engine results.
+- Added Breadcrumd for better indicate the current page’s location within a navigational hierarchy that automatically adds separators links.
+- Added Author schema markup (ld+json seo_person.html) to helps search engines understand the information on web pages and provide richer search results.
+
+### Previously added in this Mod (2.0)?
 
 - Full language Translation in English. including README.md and all code Documentation.
 - Change friendslink to reLink.
@@ -48,10 +64,8 @@ To view the display on the mobile phone, scan the QR code browser below to open 
 
 ### Upcomming in this Mod!!!
 
-- Add metadata tags for search engines and social networks to better index and display your site's content.
-- Maybe a search api. (Not sure)
-- Enable emoji for all posts and pages. (don't know if this feature already added)
-- and anything that impress me.
+- Adding Optimization Script or plugin (Under Devlopment). which can speedup this blog into a another level.
+- Google page insight Score 98.
 
 
 
