@@ -44,6 +44,7 @@ jobTitle: "Your Respectful Position"      # CEO, MD, Devloper, Manager etc.
 knowsAbout: "Your awesome Skill"          #["Coding", "Painting", "Algorithm", "Web", "Mangament"]
 knowsLanguage: ""                         #["Bangla, English"]
 
+# Author organization information for SEO
 worksFor:
   type: "LocalBusiness"                                 # Comapany Type
   name: "" #"RB Telecom"                                # Comapany name
