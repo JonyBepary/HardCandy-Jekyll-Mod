@@ -1,69 +1,54 @@
-# Site settings
-title: 'your awesome title'
+title: your awesome title
 page-title: Your Blog.
 home-title: It's Your
-description: Thoughts, Stories and Ideas
+description: 'Thoughts, Stories and Ideas'
 keywords: 'your web keywords, another keywords'
-url: 'https://demo-hardacandy.github.io' # your host
-# navigation bar：&emsp;
+url: 'https://demo-hardacandy.github.io'
 nav:
-# best experience six labels and preferably no more than 4 Chinese characters per label
-  Home : '/'
-  Tags : '/tags/'
-  Timeline: '/timeline/'
-  About: '/about/'
-  reLink: '/reLink/'
-
+  Home: /
+  Tags: /tags/
+  Timeline: /timeline/
+  About: /about/
+  reLink: /reLink/
 author: true
-name: "Your Beutiful Name"
-NickName: 'NickName'
-webtitle: 'Your awesome title'
-bio: 'Your magnaficient Bio'
+name: Your Beutiful Name
+NickName: NickName
+webtitle: Your awesome title
+bio: Your magnaficient Bio
 about: true
-aboutyou: "
-          your awesome story <br>
-          use br tag for new line <br>
-          and &\emsp for Chinese space
-          "
-portraits: '/assets/madara.svg'           # your portraits image file path for website
-
-
-# Author information for SEO
-honorificPrefix: "***"                    # Mohd., MD, Mr, Mrs, Miss, Ms, Mx, Sir, Dr, Lady or Lord,
-image: "/assets/JHON.jpg"                 # your portraits image file path for seo
-familyname: 'Your family name'
-honorificSuffix: "King"                   # Shah, Chisty, shi, Deholovi, Kandolovi, Hathajari, Druj, Vandari
-disambiguatingDescription: "Your awesome description"
-birthPlace: "Your address"
-birthDate: "Your Date of Birth"
-height: "XX inches"                       # "72 inches"
-gender: "Your gender"                     # Male/Female/Other
-memberOf: "Your awesome orgranization"
-nationality: "Your proud nationality"     # Bangladeshi, Japanease, Indian, African etc.
-jobTitle: "Your Respectful Position"      # CEO, MD, Devloper, Manager etc.
-knowsAbout: "Your awesome Skill"          #["Coding", "Painting", "Algorithm", "Web", "Mangament"]
-knowsLanguage: ""                         #["Bangla, English"]
-
-# Author organization information for SEO
+aboutyou: " your awesome story <br> use br tag for new line <br> and &\emsp for Chinese space "
+portraits: /assets/madara.svg
+honorificPrefix: '***'
+image: /assets/JHON.jpg
+familyname: Your family name
+honorificSuffix: King
+disambiguatingDescription: Your awesome description
+birthPlace: Your address
+birthDate: Your Date of Birth
+height: XX inches
+gender: Your gender
+memberOf: Your awesome orgranization
+nationality: Your proud nationality
+jobTitle: Your Respectful Position
+knowsAbout: Your awesome Skill
+knowsLanguage: ''
 worksFor:
-  type: "LocalBusiness"                                 # Comapany Type
-  name: "" #"RB Telecom"                                # Comapany name
-  openingHours: "Sa-Fr 09:00-21:00"                     # Comapany Opennign Hours
-  priceRange: "$$$"
-  telephone: ["+8801XXXXXXXX", "+8801XXXXXXXXX"]        # Comapanye telephone
-  image: "https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-0/c0.0.370.370/p370x247/22405584_136350086997737_4911101606944262040_n.jpg?_nc_cat=105&_nc_eui2=AeH5_cb29jzX1yn_Mt6IsMfKMQMKbgvDNR8K2lB_9DvfBsMhekUNLMl0SOH2qsVFkwlKD87NxqT1otBgPTryuMT2p7zOe4Ziyv8Xcxg8ia9JSA&oh=081667171756dc6a7c810b5be4ab399f&oe=5C4BAF7D"   # Comapany logo or image
+  type: LocalBusiness
+  name: ''
+  openingHours: 'Sa-Fr 09:00-21:00'
+  priceRange: $$$
+  telephone:
+    - +8801XXXXXXXX
+    - +8801XXXXXXXXX
+  image: 'https://i.imgur.com/BGBJWBq.png'
   address:
-    type: "PostalAddress"
-    addressCountry: ""  #"Bangladesh"
-    addressLocality: "" #"Paschim Naodoba, Jajira, Shariatpur"
-    addressRegion: ""   #"Dhaka"
-
-# Future Post
+    type: PostalAddress
+    addressCountry: ''
+    addressLocality: ''
+    addressRegion: ''
 future: true
-
-# Social Network Service
 SNS: true
-SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+SNS-icon:
   mail: 'mailto:sohelahmedjony@gmail.com'
   github: 'https://github.com/JonyBepary'
   Codepen: 'https://codepen.io/sohel-ahmed-jony/#'
@@ -71,94 +56,71 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   instagram: 'https://www.instagram.com/sohelahmedjony/'
   Facebook: 'https://facebook.com/sa.jhone'
   Google: 'https://plus.google.com/+JonyBepary'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  weixin: ''
+  qq: ''
   weibo: ''
   Dribbble: ''
   zhihu: ''
   juejin: ''
   twitch: ''
-
-permalink: /blog/:title/   #simple and pretty permalink format
-
-# Pagination
+permalink: '/blog/:title/'
 paginate: 4
-paginatepath: ['page:num']
-
-
-# since
+paginatepath:
+  - 'page:num'
 footer:
   since: 2018
-
-# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-# Code highlighting rouge
 highlighter: rouge
-
-# Code highlighting using pygments theme:
-#  1. autumn 2. default 3. emacs 4. friendly 5. manni
-#  6. murphy 7. pastie 8. perldoc 9. tango
-# (Choose one of the theme names you like and fill in the single quotes below.)
-
-pygmentsTheme: 'default'
-
-# Links
+pygmentsTheme: default
 friends:
   subeen's blog: 'http://subeen.com/'
   Corey Schafer: 'http://coreyms.com/'
   C Book By knking: 'http://knking.com/books/c2/index.html'
   Python Cookbook: 'http://shop.oreilly.com/product/0636920027072.do'
-  'বাংলায় প্রোগ্রামিং রিসোর্সসমূহ': 'https://github.com/me-shaon/bangla-programming-resources'
+  বাংলায় প্রোগ্রামিং রিসোর্সসমূহ: 'https://github.com/me-shaon/bangla-programming-resources'
   Freely available programming book: 'https://github.com/EbookFoundation/free-programming-books'
   Grokking Algorithms (Best for Beginners who want learn Algorithms): 'https://www.manning.com/books/grokking-algorithms'
-
-
-# For Comments Best experience, Choose between disqus, liveRe and Gitment
-# disqus
 disqus: true
-disqus_url: 'https://jonysblog.disqus.com/embed.js' #
-# liveRe (works great in china)
+disqus_url: 'https://jonysblog.disqus.com/embed.js'
 livere: false
-livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment OAuth Application
+livere_uid: MTAyMC8zNDI2OS8xMDgwNg==
 Gitment: false
-Gitment_owner: ''  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
-
-# Share : linkedin, facebook, twitter, google, diandian, weibo, qq, wechat, tencent, douban, qzone
+Gitment_owner: ''
+Gitment_repo: ''
+client_id: ''
+client_secret: ''
 social-share: true
-social-share-items: ['facebook', 'twitter', 'google', 'linkedin', diandian, 'weibo', 'qq', 'wechat', 'tencent', 'douban', 'qzone']
-
-# Baidu statistics fill in the relevant url code in baidu-url
+social-share-items:
+  - facebook
+  - twitter
+  - google
+  - linkedin
+  - diandian
+  - weibo
+  - qq
+  - wechat
+  - tencent
+  - douban
+  - qzone
 baidu: false
 baidu-url: ''
-# Google Analytics Fill in your own tracking ID in Google Analytics in google-ID:''
 google: true
-google-ID: '<UA-42070905-2>'
-
-# Blog header information alternative color (this part does not act as a site variable in the site, it is written in the header of the post to serve as a page variable)
-
-color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
+google-ID: <UA-42070905-2>
+color: 'rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)'
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
 whitelist:
   - jekyll-redirect-from
-
-#seo tag
 logo: /assets/banner.png
-
 twitter:
-  username: your_name # your twitter name
+  username: your_name
   card: summary
-
 social:
-  name: your_name # your name
+  name: your_name
   links:
     - 'mailto:yourname@example.com'
     - 'https://github.com/example'
@@ -167,10 +129,8 @@ social:
     - 'https://www.instagram.com/example/'
     - 'https://facebook.com/example'
     - 'https://plus.google.com/+example'
-
 webmaster_verifications:
   google: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 exclude:
   - screenshot
   - node_modules
@@ -185,8 +145,7 @@ exclude:
   - README.md
   - script.py
   - changelog.md
-  - "*.Rmd"
+  - '*.Rmd'
   - .git*
   - package-lock.json
   - gulpconfig.json
-
